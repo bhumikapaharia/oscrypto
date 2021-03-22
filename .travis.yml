@@ -31,7 +31,7 @@ matrix:
       arch: arm64
       dist: bionic
       language: python
-      python: "3.8
+      python: "3.8"
 script:
   - python run.py deps
   - python run.py ci
